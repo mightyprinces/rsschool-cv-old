@@ -33,7 +33,7 @@ function rgb(r, g, b) {
 ```
 
 ### Experience
-Currently I'm working as a UI designer. My frontend experience mostly locates in the studying courses. I solved a bunch of Codewars tasks, at the moment my rank is 6 kyu. I made several html pages (with css and js) on previous course in LoftSchool.
+Currently I'm working as a UI designer. Mostly my frontend experience is in studying courses. I solved a bunch of Codewars tasks, at the moment my rank is 6 kyu. I made several html pages (with css and js) on previous course in LoftSchool.
 
 ### Education
 St. Petersburg Institute of International Economic Relations, Economics and Law (IIEREL) - IVESEP
