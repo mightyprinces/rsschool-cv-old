@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;;
+  color: #2e383c;
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1, h2 {
+  color: #5e9f97;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0 0 16px 0;
+}
+
+a {
+  color: #5e9f97;
+}
+
+a:visited {
+   color: #5e9f97; 
+  }
+
+p {
+  line-height: 1.5em;
+  margin: 10px 0;
+  padding: 0;
+}
+
+li {
+  line-height: 30px;
+}
+
+pre {
+  line-height: 1.5em;
+  border-radius: 10px;
+  background-color: #eef6f5;
+  margin: 0;
+  padding: 0;
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+.description {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 40px 0;
+  border-bottom: 1px solid #dadce0;
+}
+
+.language {
+  border-bottom: 0;
+}
+
+.first-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.rsschool-footer-logo {
+  width: 90px;
+}
+
+.my-photo {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.footer, .header {
+  background-color: #d9f0ee;
+  height: 60px;
+}
+
+.footer {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-list {
+  margin-left: 0;
+  padding-left: 0;
+}
