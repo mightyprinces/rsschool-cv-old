@@ -1,13 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <title>CV</title>
 </head>
 <body>
-    <div class="box">i'm the box</div>
+  <div class="container">
+    <section class="first-section">
+      <img class="my-photo" src="./assets/img/photo-1.jpg" alt="my photo">
+      <div class="top-text">
+        <h1>Kristina Kuleshova</h1>
+        <p class="description">Junior Frontend Developer</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contacts</h2>
+      <ul>
+        <li><b>Location:</b> Saint-Petersburg, Russia</li>
+        <li><b>Phone:</b> +7 904 3322663</li>
+        <li><b>Email:</b> kristinakuleshova10@gmail.com</li>
+        <li><b>GitHub:</b> <a href="https://github.com/mightyprinces">mightyprinces</a></li>
+        <li><b>Discord:</b> Kristina K (@mightyprinces)</li>
+      </ul>
+    </section>  
+      
+    <section>
+      <h2>About Me</h2> 
+      <p>I'm a UI designer and I'm going to change my profession on frontend developer. I'm sure it will be quite interesting journey.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2> 
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript (Basic)</li>
+        <li>Git</li>
+        <li>Photoshop</li>
+        <li>Figma</li>
+      </ul>
+    </section>
+    
+  <section>
+    <h2>Code Example (RGB To Hex Conversion)</h2>
+      <pre>
+        <code>
+            
+        function rgb(r, g, b) {
+          r = Math.max(Math.min(r, 255), 0);
+          g = Math.max(Math.min(g, 255), 0);
+          b = Math.max(Math.min(b, 255), 0);
+          
+          r = r.toString(16).padStart(2,'0');
+          g = g.toString(16).padStart(2,'0');
+          b = b.toString(16).padStart(2,'0');
+          
+          return (r + g + b).toUpperCase(); 
+        }
+        </code>
+      </pre>
+    </section>
+
+    <section>
+      <h2>Experience</h2> 
+      <p>Currently I'm working as a UI designer. Mostly my frontend experience is in studying courses. I solved a bunch of Codewars tasks, at the moment my rank is 6 kyu. I made several html pages (with css and js) on previous course in LoftSchool.</p> 
+    </section>
+
+    <section>
+      <h2>Education</h2> 
+      <p>St. Petersburg Institute of International Economic Relations, Economics and Law (IIEREL) - IVESEP</p>
+    </section>
+
+    <section>
+      <h2>Courses</h2> 
+      <ul>
+        <li>HTML Academy</li>
+        <li>LoftSchool</li>
+        <li>RS School</li>
+      </ul>
+    </section>
+
+    <section class="language">
+      <h2>Language</h2>
+      <ul>
+        <li>Russian (Native)</li>
+        <li>English (B1)</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container footer-content">
+      <img class="rsschool-footer-logo" src="./assets/svg/rs_school_js.svg" alt="RS School Logo">
+      <p>2022</p>
+    </div>
+  </footer>
+
 </body>
 </html>
