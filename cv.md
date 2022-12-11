@@ -2,7 +2,7 @@
 
 ### Contacts
 * **Location:** Saint-Petersburg, Russia
-* **Phone:** +7 (904) 3322663
+* **Phone:** +7 (904 3322663
 * **Email:** kristinakuleshova10@gmail.com
 * **GitHub:** [mightyprinces](https://github.com/mightyprinces)
 
